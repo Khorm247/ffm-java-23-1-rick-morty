@@ -1,3 +1,4 @@
+/*
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -33,10 +34,39 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
 
 .read-the-docs {
   color: #888;
 }
+*/
+.cards {
+  margin: 2em;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  display: flex;
+}
+.cards p {
+    margin: 1em;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #213547;   
+}
+
+Link {
+  color: #61dafb;
+  text-decoration: none;
+  transition: color 300ms;
+  margin: 1rem;
+}
+
+.lonk {
+  color: #61dafb;
+  text-decoration: none;
+  transition: color 300ms;
+  margin: 1rem;
+}
+
+.lonk:hover {
+  color: #646cff;
+}
+
